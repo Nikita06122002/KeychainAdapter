@@ -1,3 +1,19 @@
+### How to Add KeychainAdapter Package Using Swift Package Manager (SPM)
+
+1. Open your Xcode project.
+
+2. In the Xcode menu, go to **File** > **Add Package Dependencies...**
+
+3. In the search field, enter the following repository URL: https://github.com/Nikita06122002/KeychainAdapter.git
+   
+4. Select the appropriate version or branch (by default, it will be `main`).
+
+5. Click **Add Package**.
+
+6. Xcode will automatically download the package and link it to your project.
+
+7. Once added, you can import the `KeychainAdapter` into your Swift files
+
 # KeychainAdapter
 
 **KeychainAdapter** is a lightweight, thread-safe wrapper for interacting with the iOS Keychain. It simplifies the secure storage of sensitive data like user credentials, tokens, and other important information that needs to be stored securely on the device.
